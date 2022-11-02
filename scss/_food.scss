@@ -1,0 +1,120 @@
+// all2
+.all2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 81px;
+}
+// h5
+.all2 h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #F6762C;
+    margin-bottom: 13px;
+}
+// food-pges
+.food__pages{
+    margin-bottom: 121px;
+}
+// h3
+.all2 h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 145%;
+    color: #190C05;
+    opacity: 0.8;
+    width: 424px;
+    margin-bottom: 25px;
+}
+// food pr
+.food__pages-pr{
+     width: 432px;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 150%;
+     color: #190C05;
+     opacity: 0.6;
+     margin-bottom: 45px;
+}
+.button__all{
+    margin-bottom: 100px;
+}
+// responsive
+@media only screen and (max-width:1065px){
+    .all2{
+        gap: 10px;
+    }
+    .fodd{
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width:925px){
+    .all2{
+        gap: 70px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fodd{
+        width: 450px;
+    }
+    .all2__flex h5{
+        text-align: center;
+    }
+    .all2__flex h3{
+        text-align: center;
+    }
+    .food__pages-pr{
+        text-align: center;
+    }
+    .button__flex-2{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:455px){
+    .fodd{
+        width: 390px;
+    }
+    .all2__flex h5{
+        text-align: center;
+        width: 100%;
+    }
+    .all2__flex h3{
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+    }
+    .food__pages-pr{
+        text-align: center;
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+    .button__flex-2{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:415px){
+    .fodd{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width:335px){
+    .fodd{
+        width: 320px;
+    }
+}

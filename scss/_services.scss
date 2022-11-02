@@ -1,0 +1,82 @@
+// services__text
+.services__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+// services__pr
+.services__pr{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+    margin-bottom: 13px;
+    text-align: center;
+}
+// h3
+.services__text h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 145%;
+    color: #190C05;
+    opacity: 0.8;
+    margin-bottom: 60px;
+    text-align: center;
+    width: 100%;
+}
+// all4
+.all4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 110px;
+}
+// main__texts
+.delvery__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+// main-text h4
+.main__texts h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #190C05;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+// main__text p
+.main__texts p{
+    width: 362px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #190C05;
+    opacity: 0.6;
+}
+// responsive
+@media only screen and (max-width:385px){
+    .main__texts p{
+        width: 100%;
+    }
+}

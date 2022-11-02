@@ -1,0 +1,142 @@
+// link-too__scss
+@import "./variablese";
+@import "./app";
+@import "./choose";
+@import "./food";
+@import "./footer";
+@import "./header";
+@import "./services";
+// all-sections
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// container
+.container{
+    max-width: 1220px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+// food-section
+.food__pr-one{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $textColor1;
+    margin-bottom: 17px;
+}
+// h2
+.food__texts h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 130%;
+    letter-spacing: 0.015em;
+    color: #190C05;
+    opacity: 0.8;
+    width: 502px;
+    margin-bottom: 30px;
+}
+// food-pr
+.food__pr{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #190C05;
+    opacity: 0.6;
+    width: 402px;
+    margin-bottom: 45px;
+}
+// all1
+.all1{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+// img
+.img1{
+    width: 704px;
+    margin-left: 110px;
+}
+// responsive
+@media only screen and (max-width:1515px){
+    .all1{
+        gap: 1px;
+    }
+    .img1{
+        width: 604px;
+    }
+}
+
+@media only screen and (max-width:1285px){
+    .food__texts h2{
+        font-size: 35px;
+        width: 100%;
+    }
+    .food__pr{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1035px){
+    .all1{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .img1{
+        margin-left: 0;
+    }
+    .food__pr-one{
+        text-align: center;
+    }
+    .food__texts h2{
+        text-align: center;
+    }
+    .food__pr{
+        text-align: center;
+    }
+    .button__all{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:625px){
+    .img1{
+        width: 504px;
+    }
+    .all{
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:545px){
+    .img1{
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width:465px){
+    .img1{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:415px){
+    .img1{
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width:335px){
+    .img1{
+        width: 300px;
+    }
+}

@@ -1,0 +1,130 @@
+// all5
+.all5{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+// h5
+.phone__flex h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+    margin-bottom: 13px;
+}
+// h3
+.phone__flex h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 145%;
+    color: #190C05;
+    opacity: 0.8;
+    width: 405px;
+    margin-bottom: 30px;
+}
+// p
+.phone__flex p{
+    width: 457px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #190C05;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+// app
+.app{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+// responsive
+@media only screen and (max-width:1475px){
+    .phonee{
+        width: 550px;
+    }
+}
+
+@media only screen and (max-width:1185px){
+    .phonee{
+        width: 470px;
+    }
+}
+
+@media only screen and (max-width:1035px){
+    .phonee{
+        width: 430px;
+    }
+    .all5{
+        gap: 10px;
+    }
+    .google{
+        width: 125px;
+    }
+}
+
+@media only screen and (max-width:945px){
+    .phonee{
+        width: 430px;
+    }
+    .all5{
+        gap: 10px;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .phone__flex h5{
+        text-align: center;
+    }
+    .phone__flex h3{
+        text-align: center;
+        width: 100%;
+    }
+    .phone__flex p{
+        text-align: center;
+        width: 100%;
+    }
+    .app{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:435px){
+    .phonee{
+        width: 375px;
+    }
+    .phone__flex h5{
+        text-align: center;
+    }
+    .phone__flex h3{
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .phone__flex p{
+        text-align: center;
+        font-size: 13px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .app{
+        justify-content: center;
+    }
+    .google{
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:335px){
+    .phonee{
+        width: 300px;
+    }
+}
